@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkmy_website=globalThis.webpackChunkmy_website||[]).push([[7472],{55513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"About \u2014 Sara Perez","permalink":"/blog/sara-perez","unlisted":false,"date":"2025-11-01T00:00:00.000Z"}]}')}}]);

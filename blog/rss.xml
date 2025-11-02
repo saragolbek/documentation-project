@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Sara Perez — Docs &amp; Projects Blog</title>
-        <link>https://sara-golbek-docs.example.com/blog</link>
+        <link>https://saragolbek.github.io/documentation-project/blog</link>
         <description>Sara Perez — Docs &amp; Projects Blog</description>
         <lastBuildDate>Sat, 01 Nov 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,55 +10,55 @@
         <language>en</language>
         <item>
             <title><![CDATA[About — Sara Perez]]></title>
-            <link>https://sara-golbek-docs.example.com/blog/sara-perez</link>
-            <guid>https://sara-golbek-docs.example.com/blog/sara-perez</guid>
+            <link>https://saragolbek.github.io/documentation-project/blog/sara-perez</link>
+            <guid>https://saragolbek.github.io/documentation-project/blog/sara-perez</guid>
             <pubDate>Sat, 01 Nov 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Contact]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="contact">Contact<a href="https://sara-golbek-docs.example.com/blog/sara-perez#contact" class="hash-link" aria-label="Direct link to Contact" title="Direct link to Contact" translate="no">​</a></h2>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="contact">Contact<a href="https://saragolbek.github.io/documentation-project/blog/sara-perez#contact" class="hash-link" aria-label="Direct link to Contact" title="Direct link to Contact" translate="no">​</a></h2>
 <ul>
 <li class="">Email: <a href="mailto:golbeksara@gmail.com" target="_blank" rel="noopener noreferrer" class="">golbeksara@gmail.com</a></li>
 <li class="">LinkedIn: <a href="https://www.linkedin.com/in/saragolbek" target="_blank" rel="noopener noreferrer" class="">www.linkedin.com/in/saragolbek</a></li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="top-skills">Top Skills<a href="https://sara-golbek-docs.example.com/blog/sara-perez#top-skills" class="hash-link" aria-label="Direct link to Top Skills" title="Direct link to Top Skills" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="top-skills">Top Skills<a href="https://saragolbek.github.io/documentation-project/blog/sara-perez#top-skills" class="hash-link" aria-label="Direct link to Top Skills" title="Direct link to Top Skills" translate="no">​</a></h2>
 <ul>
 <li class="">Responsive Web Design</li>
 <li class="">React</li>
 <li class="">Express.js</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="certifications">Certifications<a href="https://sara-golbek-docs.example.com/blog/sara-perez#certifications" class="hash-link" aria-label="Direct link to Certifications" title="Direct link to Certifications" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="certifications">Certifications<a href="https://saragolbek.github.io/documentation-project/blog/sara-perez#certifications" class="hash-link" aria-label="Direct link to Certifications" title="Direct link to Certifications" translate="no">​</a></h2>
 <ul>
 <li class="">Linux Essentials Certification</li>
 <li class="">ITIL 4 Foundation Certificate in IT Service Management</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="summary">Summary<a href="https://sara-golbek-docs.example.com/blog/sara-perez#summary" class="hash-link" aria-label="Direct link to Summary" title="Direct link to Summary" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="summary">Summary<a href="https://saragolbek.github.io/documentation-project/blog/sara-perez#summary" class="hash-link" aria-label="Direct link to Summary" title="Direct link to Summary" translate="no">​</a></h2>
 <blockquote>
 <p>Thanks for stopping by my profile! I’m a Full-Stack Software Developer with a passion for creating robust web applications and dynamic software solutions. My toolbox includes HTML/CSS, JavaScript, React, and Node.js. I thrive in fast-paced environments and enjoy every phase of the Software Development Life Cycle. I’m a collaborative team player who uses Agile practices to deliver value. Let’s connect and build something amazing together!</p>
 </blockquote>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="experience">Experience<a href="https://sara-golbek-docs.example.com/blog/sara-perez#experience" class="hash-link" aria-label="Direct link to Experience" title="Direct link to Experience" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="full-stack-engineer">Full Stack Engineer<a href="https://sara-golbek-docs.example.com/blog/sara-perez#full-stack-engineer" class="hash-link" aria-label="Direct link to Full Stack Engineer" title="Direct link to Full Stack Engineer" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="experience">Experience<a href="https://saragolbek.github.io/documentation-project/blog/sara-perez#experience" class="hash-link" aria-label="Direct link to Experience" title="Direct link to Experience" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="full-stack-engineer">Full Stack Engineer<a href="https://saragolbek.github.io/documentation-project/blog/sara-perez#full-stack-engineer" class="hash-link" aria-label="Direct link to Full Stack Engineer" title="Direct link to Full Stack Engineer" translate="no">​</a></h3>
 <ul>
 <li class="">July 2023 — Present (San Francisco Bay Area)</li>
 <li class="">Open to opportunities; working as a Full Stack Engineer building web applications using React and Node.js.</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="fremont-unified-school-district--elementary-school-teacher">Fremont Unified School District — Elementary School Teacher<a href="https://sara-golbek-docs.example.com/blog/sara-perez#fremont-unified-school-district--elementary-school-teacher" class="hash-link" aria-label="Direct link to Fremont Unified School District — Elementary School Teacher" title="Direct link to Fremont Unified School District — Elementary School Teacher" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="fremont-unified-school-district--elementary-school-teacher">Fremont Unified School District — Elementary School Teacher<a href="https://saragolbek.github.io/documentation-project/blog/sara-perez#fremont-unified-school-district--elementary-school-teacher" class="hash-link" aria-label="Direct link to Fremont Unified School District — Elementary School Teacher" title="Direct link to Fremont Unified School District — Elementary School Teacher" translate="no">​</a></h3>
 <ul>
 <li class="">August 2024 — Present (Fremont, California)</li>
 <li class="">Integrated educational software to foster collaborative projects, developed and implemented adaptive lessons, and collaborated with colleagues and parents to improve student outcomes.</li>
 <li class="">Built custom dashboards and used tracking and analytics tools to monitor student progress and behavior trends.</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="san-josé-unified-school-district--elementary-school-teacher">San José Unified School District — Elementary School Teacher<a href="https://sara-golbek-docs.example.com/blog/sara-perez#san-jos%C3%A9-unified-school-district--elementary-school-teacher" class="hash-link" aria-label="Direct link to San José Unified School District — Elementary School Teacher" title="Direct link to San José Unified School District — Elementary School Teacher" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="san-josé-unified-school-district--elementary-school-teacher">San José Unified School District — Elementary School Teacher<a href="https://saragolbek.github.io/documentation-project/blog/sara-perez#san-jos%C3%A9-unified-school-district--elementary-school-teacher" class="hash-link" aria-label="Direct link to San José Unified School District — Elementary School Teacher" title="Direct link to San José Unified School District — Elementary School Teacher" translate="no">​</a></h3>
 <ul>
 <li class="">January 2021 — June 2024 (San Jose, California)</li>
 <li class="">Designed and implemented digital lessons using Canvas, Istation, and IXL to enhance engagement.</li>
 <li class="">Mentored colleagues in remote and hybrid learning strategies and led initiatives using Excel and Google Sheets for trend analysis to improve learning outcomes.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="education">Education<a href="https://sara-golbek-docs.example.com/blog/sara-perez#education" class="hash-link" aria-label="Direct link to Education" title="Direct link to Education" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="education">Education<a href="https://saragolbek.github.io/documentation-project/blog/sara-perez#education" class="hash-link" aria-label="Direct link to Education" title="Direct link to Education" translate="no">​</a></h2>
 <ul>
 <li class="">Western Governors University — B.S., Computer Science (December 2024)</li>
 <li class="">Altcademy — Full-Stack Web Development (September 2023)</li>
 <li class="">Cal Poly Humboldt — B.A., Liberal Studies (December 2015)</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="connect">Connect<a href="https://sara-golbek-docs.example.com/blog/sara-perez#connect" class="hash-link" aria-label="Direct link to Connect" title="Direct link to Connect" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="connect">Connect<a href="https://saragolbek.github.io/documentation-project/blog/sara-perez#connect" class="hash-link" aria-label="Direct link to Connect" title="Direct link to Connect" translate="no">​</a></h2>
 <p>If you'd like to collaborate or learn more about my work, reach out via email or LinkedIn — I’m always open to conversation and opportunities.</p>]]></content:encoded>
         </item>
     </channel>
