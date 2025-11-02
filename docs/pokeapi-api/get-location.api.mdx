@@ -1,0 +1,71 @@
+---
+id: get-location
+title: "Get location by ID or name"
+description: "Returns details for a specific location"
+sidebar_label: "Get location by ID or name"
+hide_title: true
+hide_table_of_contents: true
+api: eJzdVsFu4zYQ/ZUB99AW0EpuetPN3U23BoKt4SSnJCjG5MjihiK5JOWsYeiD9jv6Y8VQdiIn6QK59mRrhvPemxFnRnuhKMqgfdLOilqsKPXBRlCUUJsIjQuAED1J3WgJxknMJwvhPIX8f6FELTaULp58CTdR1DfiaIrirhAeA3aUKLBrLyx2JGqhlSiEZmqPqRWFCPS114GUqFPoqXim74gIi4/gAmSQQkTZUoei3gtn6a8m46edz/g20YaCGIpHU0xB240Y7obhjvmidzZS5PCz2Yx/TjkveykpxqY3cDwsCiGdTWQTH0fvjR51VV8ix+wnkg6sbv2FZBKF8IFLl/TIqNXkzJPYQ3leaGa9Gz1S/Bj4dYDn9bxqKRcRXAOpJQjUUCArSXGurg+SmLQP5jWsxoUOk6hFH/Sr0Nerix8iD4VIOhkG/YwdqflysZrQsrI4IcYQcMf3JVEXX5aA4TbY0d/aKi3fGomB8A0h/796T72PzTwM2d5Rat2h0Tl17tVaVMd5UO21GrgRKWyPDZ5zEG1KPtZV5d09odeldBV6XW3PXuhfBqd6mZt7hBHcnto2LpfiIGzp7mm+XIhCMNEYeVbOytkLvLkxuRBLd//P985ZUJgQdq7/yRigLQWwRAq0BWcJvEFJBRBGbXaAueP12hCkNrh+0wJC5xQFC6vzyyueBfPlory1t/bdO/gDdYDryFxGyx1bM+t8uQAdoQlEgFaB82QhOegjlfCne2AVBTwQPGhjYI0WFktApQLFSBFSiwlw3UdWoSP4oLfa0IZKuOLnA3wfSbGvw8DaeWST6scXgwZ8H7yLFIssgcnQJlZxT+RBp1N5x5RWmAgudKeTthu2XbUUiOkQAvsM+/iy/TqbAQ9tiimCpzDJIT922vaJSlg0XHygb5LLnhPKGAWbT6LGahAXxJLKCfEral0fSlgawkjs5mFMMvG7cA0wxvGix5yORNnSCP445Mtbe5jdKNNT206u1X9dW25LoyXx9H+K+/3y4/vf3n8w2OelcBq80ant16V0XXXAP+JVa+PWVYcxUaguFh/OP1+el53KDepdTB3aCcknSo+bF9a70913cun3T2vpDav8MGYSfUuVN6jtZASNnX4jJsdrrXifty4m9uz3a4x0HcwwsPlrT2En6pu7QmwxaFxz297shdKR/ytRN2ji88U+Ff7z6vAJ8Au8vu5f1Xuc2pZn9hZNz0+iEPe0Gz8zhruhEC2hopAFjY65lOTTJOTFMucp9Dj+Pp1fiWH4FzSELDY=
+sidebar_class_name: "get api-method"
+info_path: docs/pokeapi-api/pokeapi
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Get location by ID or name"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"get"}
+  path={"/location/{id}"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Returns details for a specific location
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<ParamsDetails
+  parameters={[{"name":"id","in":"path","required":true,"description":"Location ID or name","schema":{"oneOf":[{"type":"integer"},{"type":"string"}]}}]}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  title={"Body"}
+  body={undefined}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  id={undefined}
+  label={undefined}
+  responses={{"200":{"description":"Successful response","content":{"application/json":{"schema":{"type":"object","properties":{"id":{"type":"integer"},"name":{"type":"string"},"region":{"type":"object","properties":{"name":{"type":"string","description":"The name of the referenced resource"},"url":{"type":"string","format":"uri","description":"The URL of the referenced resource"}},"title":"NamedAPIResource"},"names":{"type":"array","items":{"type":"object"}},"game_indices":{"type":"array","items":{"type":"object"}},"areas":{"type":"array","items":{"type":"object","properties":{"name":{"type":"string","description":"The name of the referenced resource"},"url":{"type":"string","format":"uri","description":"The URL of the referenced resource"}},"title":"NamedAPIResource"}}},"title":"Location"}}}}}}
+>
+  
+</StatusCodes>
+
+
+      

@@ -1,0 +1,71 @@
+---
+id: get-berry
+title: "Get berry by ID or name"
+description: "Returns details for a specific berry"
+sidebar_label: "Get berry by ID or name"
+hide_title: true
+hide_table_of_contents: true
+api: eJzlVsFuIzcM/RVCe2gLzNpuevMtu5tuDQRbw0lOThDQI45HG42kpTjOusZ8UL+jP1ZwbCd24hQ9t7k4EsX3HjkSyY2xlEt2SVwMZmxmJC2HDJYEnc9QRQaEnKh0lSthQcxrU5iYiFFdJtaMzZLkw84guMxmPDe6dpTNXWESMjYkxGrYmIANmbFx1hTGKWVCqU1hmL61jsmasXBLxQtdPT5MPkFk6BEKk8uaGjTjjYmBfq96cFmnHjwILYlNVzxtZWEXlqa767o7JcsphkxZ3c9GI/05Jrxqy5JyrloP+8OmMGUMQkH0OKbkXdknYfg1q8/mQNKONS6+UimmMIk1ZeK2jM4enHkWu8vNK82FWXJ8lPpe3JH9wLPB7/c18oqyvAUtLaO/X7pK7lN8JD59Lrs/3qDITYxSB8r5DXt0/t7y+u0TlePmhfWNBJ1OxMtLcV1TfxkgViA1AVNFTKEkq98stlyS0rbsT2FVkRsUMzYtu5PQN7PLf0TuCiNOvIJ+wYbs+XQyO6CtPK4iHwaLzKiPxAk1J5KggGr6f6Tn6EJuyf/7YR8YtxWz07/CNCR13JVSDVtL4tgM+3I73Djbab0jXu2LaC/e1CIpj4fDFB8IkxuUcYjJDVdnr4RPOdq21AVsYYxWQReq2OdgJ2kaH+h8OjGFUaKt59lgNBi9wjv3vs/AND789WcTA1gUhHVsf/AeaEUMgciCCxADQfJYUgGE2fk1YF9Y3cITSM2xXdaA0ERLHGB2cXWtJfd8Ohnchtvw7h38io7hJiuXd+Vad3vW8+kEXIaKiQCDhZgogERoMw3gt/ioKgp4JHh03sMCA0ymgNYy5UwZpEYBXLRZVbgMid3KeVrSAK51vYNvM1m1NciqXdsh2XZb9tFDajnFTLnoJSgZBlEVD0QJnBzL24c0QyG4dI0TF5a6d10Tk9IhsNq82vSW/TwagTZGypIhER/E0C8bF1qhAUwqTT7Q91LT3gfUYxS6feS1zQZpQgLZPiD9RHVseQBTT5hJzdrzqBT9FrECxdjf8NyHU2JZ0xb8qZcObsOuRWIpz+/14Fq9dW31PXpXkjbZZ78PV5/e//L+o8e2773HzksndbsYlLEZ7vD3eMOFj4thg1mIh5eTjxdfri4Gje0fX4pZGgwHJJ9JtlMNLF7MF0c3fvPc+v/tjLSrLELfZZg8unBQdbYPfG72Z8fO6qhUR23fc7PZLDDTDfuu0+1vLfHajOd3hVkhO1zoa51vjHVZ/7dmXKHPL2emQ8k/znbT1U9wYpI6qXTfs4LqW6FvdWUK80Dr7fjW3XWFqQmtjhLzzc5wXpaU5MDl1Zykleep3n2+uDZd9zfz7aJJ
+sidebar_class_name: "get api-method"
+info_path: docs/pokeapi-api/pokeapi
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Get berry by ID or name"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"get"}
+  path={"/berry/{id}"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Returns details for a specific berry
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<ParamsDetails
+  parameters={[{"name":"id","in":"path","required":true,"description":"Berry ID or name","schema":{"oneOf":[{"type":"integer"},{"type":"string"}]}}]}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  title={"Body"}
+  body={undefined}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  id={undefined}
+  label={undefined}
+  responses={{"200":{"description":"Successful response","content":{"application/json":{"schema":{"type":"object","properties":{"id":{"type":"integer"},"name":{"type":"string"},"growth_time":{"type":"integer"},"max_harvest":{"type":"integer"},"natural_gift_power":{"type":"integer"},"size":{"type":"integer"},"smoothness":{"type":"integer"},"soil_dryness":{"type":"integer"},"firmness":{"type":"object","properties":{"name":{"type":"string","description":"The name of the referenced resource"},"url":{"type":"string","format":"uri","description":"The URL of the referenced resource"}},"title":"NamedAPIResource"},"flavors":{"type":"array","items":{"type":"object"}},"item":{"type":"object","properties":{"name":{"type":"string","description":"The name of the referenced resource"},"url":{"type":"string","format":"uri","description":"The URL of the referenced resource"}},"title":"NamedAPIResource"},"natural_gift_type":{"type":"object","properties":{"name":{"type":"string","description":"The name of the referenced resource"},"url":{"type":"string","format":"uri","description":"The URL of the referenced resource"}},"title":"NamedAPIResource"}},"title":"Berry"}}}}}}
+>
+  
+</StatusCodes>
+
+
+      

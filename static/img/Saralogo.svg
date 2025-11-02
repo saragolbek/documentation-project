@@ -1,0 +1,29 @@
+<svg width="250" height="250" viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Subtle blue gradient for the circle -->
+    <linearGradient id="circleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a73e8"></stop>
+      <stop offset="100%" stop-color="#0a47a9"></stop>
+    </linearGradient>
+
+    <!-- Refined metallic gradient for the letter S -->
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e3e9f0"></stop>
+      <stop offset="50%" stop-color="#b0becf"></stop>
+      <stop offset="100%" stop-color="#8b9bb0"></stop>
+    </linearGradient>
+
+    <!-- Soft shadow for depth -->
+    <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.2"></feDropShadow>
+    </filter>
+  </defs>
+
+  <!-- Outer circle -->
+  <circle cx="125" cy="125" r="100" stroke="url(#circleGradient)" stroke-width="8" fill="none" filter="url(#softShadow)"></circle>
+
+  <!-- Letter S -->
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="central" font-family="Helvetica Neue, Poppins, Arial, sans-serif" font-size="110" font-weight="700" fill="url(#textGradient)">
+    S
+  </text>
+</svg>

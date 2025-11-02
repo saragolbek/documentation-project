@@ -1,0 +1,71 @@
+---
+id: get-type
+title: "Get type by ID or name"
+description: "Returns details for a specific type"
+sidebar_label: "Get type by ID or name"
+hide_title: true
+hide_table_of_contents: true
+api: eJztWM1u4zYQfpUB99AW0FpuetPN3U23BoKt4SSnJAhG5MjihiK1/PGuYfiB9jn6YsVIcmzHaZtck5xscjgzHz8OKX5cC0VBet1G7awoxJxi8jaAoojaBKicB4TQktSVlhBXLYlMuJY8ssdUiUIsKF70/REXQRRXgptB3GSiRY8NRfLcvRYWGxKF0EpkQnO6FmMtMuHpa9KelCiiT5Q9wMTRYPoRnIcuQCaCrKlBUayFs/RX1cXuoBVC20gL8mKT3XeF6LVdiM3NZnPDuULrbKDA7ifjMf8c5jtPUlIIVTKwHSwyIZ2NZCMPx7Y1WnYE5F8C+6z3IA1ZXfmFZBSZaD3TFXWfUau9MTuwAzVHmDOhsMEF3XoyXcLw/ymsux2cotsbjd7jiomP1DwlyqOAjtampm5RwFUQawJPFXmykhRz55KXxJNI3jwWq3K+wSgKkbx+NPTl/Ow/I28yEXU0HPQzNqQms+l831ijqd7IGIzKpdLQGx2DcbdNKu+aV07G/kZ5o+PBVnn1hLB5gQ3daqu0pPB0MjpPssN14TWQlYnGLe9LRxoM/cSSMViyT3/FQWMOLy4vlpCb4XbzzKpp3R01ByXzzH0XjIuP37WOQ79Y8rutywX5DPZfIgs7aydVNgMxFGs3SBieNquRQuQMLl9rtWGpQX65lS8ddlHH2IYiz7mKsNUj6XJsdb48OcI9804lyQ3owwgWINpW/dVrADRzdzSZTUUmOFHveTIaj8ZH8SbGdATM3N3fPxpnQWFEWLn0kzFAS/JgiRRoC84StAYlZUAYtFkBdppGl4Yg1t6lRQ0IjVPkLcxPzy9Y7Uxm09G1vbbv3sEfqD1cBs5ltFxxb5d1MpuCDlB5IkCrwLVkITpIgUbwp/vGKDL4RvBNGwMlWpjOAJXyFAIFiDVGwDIFRqEDtF4vtaEFjeCC20P4FEixrUHP2FmEkkq94kIDbfKtCxSyDgInQxsZxR1RCzoewttOaY6R4Ew3Omq74L6LmjxxOgTPNsM2LrJfx2NgSUohBmjJ782hazbapkgjmFZMPtB3ybR3E+piZNx94NWzQUyIJdVNiJeodsmPYGYIA7GZ5SbJyGvhKuAY2wIP3XQkypr64PcydnRtB3WKMu62615Z/VvZ8nY0WhLr253f7+cf3//2/oPB1MneQ+eFjnUqR9I1+RB/Gy8vjSvzBkMkn59NP5x+Pj8dNWo4ykNs0O4l+USxe0uAcnWo7A8Kfr0T3U98mBiOlUjfY94a1HbvyOl395UYhhZa8QtF7ULk3vW6xECX3mw23P01kV+J4uomE0v0uv9yX62F0oH/K1FUaMLDp4p9wD/Ph0eNX+D4AeNRnNvT2fLZvESTuCUycUer/tGk+5TWhIp8B6Y3TKSkNu65HD1P8Klzf9R9Or0Qm80/eGg0gw==
+sidebar_class_name: "get api-method"
+info_path: docs/pokeapi-api/pokeapi
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Get type by ID or name"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"get"}
+  path={"/type/{id}"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Returns details for a specific type
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<ParamsDetails
+  parameters={[{"name":"id","in":"path","required":true,"description":"Type ID or name","schema":{"oneOf":[{"type":"integer"},{"type":"string"}]}}]}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  title={"Body"}
+  body={undefined}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  id={undefined}
+  label={undefined}
+  responses={{"200":{"description":"Successful response","content":{"application/json":{"schema":{"type":"object","properties":{"id":{"type":"integer"},"name":{"type":"string"},"damage_relations":{"type":"object","properties":{"no_damage_to":{"type":"array","items":{"type":"object","properties":{"name":{"type":"string","description":"The name of the referenced resource"},"url":{"type":"string","format":"uri","description":"The URL of the referenced resource"}},"title":"NamedAPIResource"}},"half_damage_to":{"type":"array","items":{"type":"object","properties":{"name":{"type":"string","description":"The name of the referenced resource"},"url":{"type":"string","format":"uri","description":"The URL of the referenced resource"}},"title":"NamedAPIResource"}},"double_damage_to":{"type":"array","items":{"type":"object","properties":{"name":{"type":"string","description":"The name of the referenced resource"},"url":{"type":"string","format":"uri","description":"The URL of the referenced resource"}},"title":"NamedAPIResource"}},"no_damage_from":{"type":"array","items":{"type":"object","properties":{"name":{"type":"string","description":"The name of the referenced resource"},"url":{"type":"string","format":"uri","description":"The URL of the referenced resource"}},"title":"NamedAPIResource"}},"half_damage_from":{"type":"array","items":{"type":"object","properties":{"name":{"type":"string","description":"The name of the referenced resource"},"url":{"type":"string","format":"uri","description":"The URL of the referenced resource"}},"title":"NamedAPIResource"}},"double_damage_from":{"type":"array","items":{"type":"object","properties":{"name":{"type":"string","description":"The name of the referenced resource"},"url":{"type":"string","format":"uri","description":"The URL of the referenced resource"}},"title":"NamedAPIResource"}}}},"game_indices":{"type":"array","items":{"type":"object"}},"generation":{"type":"object","properties":{"name":{"type":"string","description":"The name of the referenced resource"},"url":{"type":"string","format":"uri","description":"The URL of the referenced resource"}},"title":"NamedAPIResource"},"move_damage_class":{"nullable":true,"allOf":[{"type":"object","properties":{"name":{"type":"string","description":"The name of the referenced resource"},"url":{"type":"string","format":"uri","description":"The URL of the referenced resource"}},"title":"NamedAPIResource"}]},"names":{"type":"array","items":{"type":"object"}},"pokemon":{"type":"array","items":{"type":"object","properties":{"slot":{"type":"integer"},"pokemon":{"type":"object","properties":{"name":{"type":"string","description":"The name of the referenced resource"},"url":{"type":"string","format":"uri","description":"The URL of the referenced resource"}},"title":"NamedAPIResource"}}}},"moves":{"type":"array","items":{"type":"object","properties":{"name":{"type":"string","description":"The name of the referenced resource"},"url":{"type":"string","format":"uri","description":"The URL of the referenced resource"}},"title":"NamedAPIResource"}}},"title":"Type"}}}}}}
+>
+  
+</StatusCodes>
+
+
+      

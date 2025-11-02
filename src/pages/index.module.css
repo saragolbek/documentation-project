@@ -1,0 +1,45 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactButton {
+  margin-left: 12px;
+  /* White button on top of primary hero for contrast */
+  background-color: #ffffff !important;
+  color: var(--ifm-color-primary) !important;
+  border-color: transparent !important;
+  box-shadow: 0 2px 8px rgba(16,24,40,0.08);
+}
+
+.contactButton:hover {
+  /* Keep contrast on hover: light background with primary text and clear outline */
+  background-color: #f5f7fa !important;
+  color: var(--ifm-color-primary-dark) !important;
+  box-shadow: 0 4px 12px rgba(16,24,40,0.12);
+  transform: translateY(-1px);
+}
+
+.contactButton:focus-visible {
+  outline: 3px solid rgba(46,133,85,0.18);
+  outline-offset: 2px;
+}

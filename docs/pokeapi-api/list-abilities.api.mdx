@@ -1,0 +1,71 @@
+---
+id: list-abilities
+title: "List abilities"
+description: "Returns a list of all Pokémon abilities"
+sidebar_label: "List abilities"
+hide_title: true
+hide_table_of_contents: true
+api: eJytVcmO40YM/RWCc8hFIzudm2/OpJMYaAyMXk7dPlAlyqrpUlVNLe42DH1QviM/FlBqb3DPZEFOgork4yOrHrnDmqMK2iftLM7wllMONgKB0TGBa4CMgaV7/vOPzlmgShudNEcs0HkOJGGLGmco7vMTa6J1xNkjHs9WBXoK1HHiIKYdWup4CO10wgK1EPiaOWyxwKha7ghnO0xbL17aJl5zwAJrbiibhLOrad8XBxjXNJH/E86071cFBo7e2chRnK+mU/mcN+cuK8UxNtnA3hkLVM4mtkncyXuj1dCUyZcoMbtLAq76wkp4+iAtHHoz26FyeQR5h+cpifuWIblEBmzuKg5yR4Gjy0FxBNqQNlQZxr5Ay6+niDEFbddYYONCRwlnmIPGAm02Y8gshczv5Xu4vYHGBUgtg4CCpzWDtsOB3Lxk84E32uX4v2fcA7+bNXDMJp0mpRBIbl4n7uLf9318PZeULzmJp3Rb0gduOLBVXB+aL2xyMP+g/PfL/R5yX2DSSRqGn6njer5c3B6N37HeDG3qB5+OU+tEq+tBJp5SizOcjJoetMJhs9fmUAm2Kfk4m0y8e2byulRuQl5PNlcXVSyDq7OSHxhhUDSlbeOGhrzRW7pnni8XWKAkGiOvymk5vcCbGzO04zB6akoEW5d/MAZ4wwEscy2vwVkGb0hxAUxRmy3QIFNdGYbUBpfXLRB0ruZg4fb67l4EPF8uyif7ZD98gF9JB3iIkstotZXTIet8uQAdoQnMQLYG59lCcpAjl/C7exEWBbwwvGhjoCILiyVQXQeOkSOklhJQlaOw0BF80BtteM0l3Mv/G3yOXIutoyDc5dFzncchQgZ8Dt5FjsVAQZKRTcLimdmDTuf09iXdUmK4kbmq7VrO7lsOLOkIgtiGmStP7sfpFAJ/zRxTBM/hpIbht9M2Jy5h0UjzgV+VtH0oaMAo5PgsauwGS0Ms10NBckWty6GEpWGKLGaZoKyS3IVrQDBOppitQZFqeQQ/TObyyb4NXFLpKN6TZ/WtZyviNFqxjOxj3M93v3z86eMnQ3mY5OfBa53aXJXKdZM3/D3epDKumnQUE4fJzeLT9ee767KrB5l6F1NH9iSJSPBscZ499N1xf/yb5fs2YRK/pok3pO3J9BmF/Yh7Ya8KbF1McrTbVRT5IZi+l+NxSYrcax1lINc4a8hELvCZtyereUMmSz6UffsN38P+PTqv5CfocdQ/rvoCW6aaw5ByjJorxf406mKHCsphdP12fY99/xcQoQKh
+sidebar_class_name: "get api-method"
+info_path: docs/pokeapi-api/pokeapi
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"List abilities"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"get"}
+  path={"/ability"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Returns a list of all Pokémon abilities
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<ParamsDetails
+  parameters={[{"name":"limit","in":"query","schema":{"type":"integer","default":20}},{"name":"offset","in":"query","schema":{"type":"integer","default":0}}]}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  title={"Body"}
+  body={undefined}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  id={undefined}
+  label={undefined}
+  responses={{"200":{"description":"Successful response","content":{"application/json":{"schema":{"type":"object","properties":{"count":{"type":"integer","description":"The total number of resources available"},"next":{"type":"string","format":"uri","nullable":true,"description":"The URL for the next page in the list"},"previous":{"type":"string","format":"uri","nullable":true,"description":"The URL for the previous page in the list"},"results":{"type":"array","items":{"type":"object","properties":{"name":{"type":"string","description":"The name of the referenced resource"},"url":{"type":"string","format":"uri","description":"The URL of the referenced resource"}},"title":"NamedAPIResource"}}},"title":"NamedAPIResourceList"}}}}}}
+>
+  
+</StatusCodes>
+
+
+      

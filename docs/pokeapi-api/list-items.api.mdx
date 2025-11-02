@@ -1,0 +1,71 @@
+---
+id: list-items
+title: "List items"
+description: "Returns a list of all Pokémon items"
+sidebar_label: "List items"
+hide_title: true
+hide_table_of_contents: true
+api: eJytVc1uIzcMfhVCe+hl1nbTm2/pNm0NBAsjP6ckB1rD8WijkbQU5cQw5oH6HH2xgjOO48DZ7aLoaSCJ/D6SQ37cmZqyZZfExWDm5oqkcMiA4F0WiA2g97CMj3//1cUATqjLpjIxEaO6LGozN2q62L8IrrOZ35nx/FCZhIwdCbFe70zAjgaXzompjFPSr4V4ayqTbUsdmvnOyDaplQtCa2JTmZoaLF7M/GzW99UBJjZNpv+EM+v7h8ow5RRDpqzGZ7OZft4W5LpYSzk3xcOLsamMjUEoiJpjSt7ZoRjTL1l9dqcBxNUXshpnYi2duJHRxjKCvBPncRA3LYFEQQ+hdCti/S9MORa2lAE36DyuPJm+MoGejxGzsAtrU5kmcodi5qawM5UJxY8uc+FC7/HdXl1CExmkJVBQSLgmcGG40D+ubIlp42LJ/zvjC/C7rEy5eDkmRWbUPz/257/Wfeye05BPY1JLrbbSMzXEFCzVh+JrNIX9D6T/frrfQ+4rI060YOYzdlSfLxdXr4/feb0cytQPNh1JG3VG18OYJJTWzM1U66SDQrx5GcwhDdOKpDyfTlN8JExuYuMUk5tuzk5SWHKsi9UDjDBGB8qFJg7V2Me2jI90vlyYyijR6Hk2mU1mJ3jn3g+1OGhNjYKwjeUn74E2xBCIam2FGAiSR0sVEGbnt4DDjLqVJ5CWY1m3gNDFmjjA1cX1jU7v+XIxuQ/34cMH+B0dw21WLu/sVm8H1vPlAlyGhokAQw0xUQCJUDJN4M/4pFFU8ETw5LyHFQZYLAHrmilnyiAtCuCqZI3CZUjsNs7TmiZwo+c9fMlU61uHrLFrx1NdRgVBD6lwiplyNYSgZBhEo3gkSuDkbXgvKV2hEFyqqLqw1rublpiUDoH1bRBc7befZzNg+looS4ZEfJTDcOxcKEITWDRafKBnq2UfEhowKr1+4zVWg7QggeohIf1FbSw8gaUnzKTPKp9kRf9FbEAxjiQs1GDRtjSCH2R5ch/2aotWXif3qK2+1bY6md5ZUr1+9fv1+rePv3z85LEMMv7Wee2kLauJjd10j/+CN135uJp2mIV4ern4dPH5+mLS1cOMppilw3BEovN32JRvmnz3ujh+dNPuZUXoWabJowtHkjNO892gerpq25hFz7vdCjPdsu97vR7Xos547bJKcG3mDfpMlXmk7dEy3qAvSmZ0w37D9rBxX40f9MBuFPe7h74yLWFNPFCOXufWUjr2OtmainIQqz8ubkzf/wORhfgw
+sidebar_class_name: "get api-method"
+info_path: docs/pokeapi-api/pokeapi
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"List items"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"get"}
+  path={"/item"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Returns a list of all Pokémon items
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<ParamsDetails
+  parameters={[{"name":"limit","in":"query","schema":{"type":"integer","default":20}},{"name":"offset","in":"query","schema":{"type":"integer","default":0}}]}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  title={"Body"}
+  body={undefined}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  id={undefined}
+  label={undefined}
+  responses={{"200":{"description":"Successful response","content":{"application/json":{"schema":{"type":"object","properties":{"count":{"type":"integer","description":"The total number of resources available"},"next":{"type":"string","format":"uri","nullable":true,"description":"The URL for the next page in the list"},"previous":{"type":"string","format":"uri","nullable":true,"description":"The URL for the previous page in the list"},"results":{"type":"array","items":{"type":"object","properties":{"name":{"type":"string","description":"The name of the referenced resource"},"url":{"type":"string","format":"uri","description":"The URL of the referenced resource"}},"title":"NamedAPIResource"}}},"title":"NamedAPIResourceList"}}}}}}
+>
+  
+</StatusCodes>
+
+
+      
