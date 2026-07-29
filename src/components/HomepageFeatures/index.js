@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'About Sara',
-    img: require('@site/static/img/ProfilePic.jpg').default,
+    img: require('@site/static/img/PortfolioPic.jpg').default,
     description: (
       <>
         Full-Stack Software Engineer with experience in HTML/CSS, JavaScript,
